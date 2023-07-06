@@ -1,0 +1,38 @@
+body {
+  .nav-header {
+    font-style: italic;
+  }
+  /* .introImage {
+    width: 50%;
+  }
+  .second-image {
+    width: 50%;
+  } */
+  .intro-image-row {
+    display: inline;
+    /* width: 30%; */
+  }
+  .nav {
+    background-color: grey;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 2;
+  }
+  .intro-image-col-2 {
+    float: right;
+  }
+  .name {
+    width: 50%;
+    text-align: center;
+  }
+  .intro-image-col-1 {
+    float: left;
+  }
+
+  .nav a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
